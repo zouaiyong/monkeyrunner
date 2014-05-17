@@ -134,7 +134,7 @@ if(result.sameAs(resultTrue,0.9)):
 else:
 	#打印信息到命令行
 	print("主页面图片对比失败")
-	log.write("主页面图片对比失败")
+	log.write("主页面图片对比失败\n")
 
 
 #去文件中找到我们规定的图片用来对比
@@ -170,7 +170,7 @@ if(result3.sameAs(result3True,0.8)):
 	log.write("右移便签图片对比成功……\n")
 else:
 	print("右移便签图片对比失败")
-	log.write("右移便签图片对比失败")
+	log.write("右移便签图片对比失败……\n")
 
 #对长微博图片对比
 result4True=MonkeyRunner.loadImageFromFile('D:\\picture2\\shottrue4.png')
@@ -179,7 +179,7 @@ if(result4.sameAs(result4True,0.8)):
 	log.write("发长微博图片对比成功……\n")
 else:
 	print("发长微博图片对比失败")
-	log.write("发长微博图片对比失败")
+	log.write("发长微博图片对比失败\n")
 
 
 result5True=MonkeyRunner.loadImageFromFile('D:\\picture2\\shottrue5.png')
@@ -188,7 +188,7 @@ if(result5.sameAs(result5True,0.8)):
 	log.write("输入微博账号图片对比成功……\n")
 else:
 	print("输入微博账号图片对比失败")
-	log.write("输入微博账号图片对比失败")
+	log.write("输入微博账号图片对比失败\n")
 
 
 result6True=MonkeyRunner.loadImageFromFile('D:\\picture2\\shottrue6.png')
@@ -197,7 +197,7 @@ if(result6.sameAs(result6True,0.8)):
 	log.write("登陆微博图片对比成功……\n")
 else:
 	print("登陆微博图片对比失败")
-	log.write("登陆微博图片对比失败")
+	log.write("登陆微博图片对比失败……\n")
 
 
 
